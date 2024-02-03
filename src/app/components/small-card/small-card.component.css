@@ -1,0 +1,25 @@
+.smallCardContainer {
+  padding-left: 12px;
+}
+
+.smallCardImage img {
+  border-radius: 15px;
+}
+
+.smallCardDate p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #a5a6ab;
+  font-weight: bold;
+}
+
+.smallCardDescription p{
+  margin-right: 5rem;
+  text-align: justify;
+  color: gray;
+}
+
+.smallCardText {
+  margin-right: 20px;
+  max-width: 700px;
+}

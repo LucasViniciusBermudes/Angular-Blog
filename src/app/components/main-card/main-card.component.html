@@ -1,0 +1,21 @@
+<div class="mainCardContainer">
+  <div class="mainCardLeft">
+    <div class="mainCardImage">
+      <a [routerLink]="['content',id]"><img src="{{ photoCover }}" alt="" srcset="" height="500px" width="800px"></a>
+    </div>
+  </div>
+  <div class="mainCardRight">
+    <div class="mainCardDate">
+      <p>{{ contentDate }}</p>
+    </div>
+    <div class="mainCardText">
+      <div class="mainCardTitle">
+        <a [routerLink]="['content',id]"><h1>{{ contentTitle }}</h1></a>
+      </div>
+      <div class="mainCardDescription">
+        <p>
+          {{ contentDescription }}
+      </div>
+    </div>
+  </div>
+</div>

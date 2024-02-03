@@ -1,0 +1,10 @@
+<div
+*ngFor="let character of characters"
+class="characterContainer">
+  <div class="characterImage">
+    <a href=""><img src="{{ character.photo }}" alt="" width="200px"></a>
+  </div>
+  <div class="charactersName">
+    <a href=""><p>{{ character.name }}</p></a>
+  </div>
+</div>

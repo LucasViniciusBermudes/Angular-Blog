@@ -1,0 +1,19 @@
+
+.articlesContainer {
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.smallCardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mainCardContainer {
+  display: flex;
+  align-items: center;
+}
+

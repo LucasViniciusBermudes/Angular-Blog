@@ -1,0 +1,21 @@
+<div class="smallCardContainer">
+  <div class="smallCardLeft">
+    <div class="smallCardImage">
+      <a [routerLink]="['content', id]"><img src="{{ photoCover }}" alt="" srcset="" height="300px" width="480px"></a>
+    </div>
+  </div>
+  <div class="smallCardRight">
+    <div class="smallCardDate">
+      <p>{{ contentDate }}</p>
+    </div>
+    <div class="smallCardText">
+      <div class="smallCardTitle">
+        <a [routerLink]="['content', id]"><h1>{{ contentTitle }}</h1></a>
+      </div>
+      <div class="smallCardDescription">
+        <p>{{ contentDescription }}</p>
+      </div>
+    </div>
+
+  </div>
+</div>
