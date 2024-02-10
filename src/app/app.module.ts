@@ -26,11 +26,11 @@ import { PageFooterComponent } from './components/page-footer/page-footer.compon
     MoreComponent,
     CharactersComponent,
     CharacterCardComponent,
-    PageFooterComponent
+    PageFooterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
