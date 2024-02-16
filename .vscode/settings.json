@@ -1,4 +1,24 @@
 {
-    "editor.fontSize": 20,
-    "editor.accessibilityPageSize": 20
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Aura Dark",
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "line",
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*, package-lock*",
+      "tailwind.config.js": "tailwind.config*, postcss.config*",
+      ".env.local": ".env*",
+      ".env": ".env*"
+    },
+    "terminal.integrated.fontSize": 14,
+    //"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
 }
