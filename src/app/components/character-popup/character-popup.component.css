@@ -1,0 +1,91 @@
+.modal {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #333;
+  min-width: 320px;
+  position: fixed;
+  left: 50%;
+  padding: 25px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 12;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 75%;
+}
+
+.overlay {
+  background: #000;
+  height: 100vh;
+  left: 0;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+}
+
+.btnClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+}
+
+.btnClose:hover {
+  transform: scale(1.4);
+}
+
+.popUpPhoto {
+  max-width: 600px;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.characterName {
+  font-size: 40px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+
+.DetailSide {
+  position: relative;
+  padding-left: 20px;
+  width: 100%;
+  height: 100%;
+  top: -30px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.textBottom {
+  text-align: justify;
+  text-indent: 2em;
+  padding-top: 25px;
+}
+
+.textTop {
+  overflow: visible;
+}
+
+.characterRealName {
+  margin-bottom: 5px;
+}
+
+.characterBase {
+  margin-bottom: 5px;
+}
+
+.characterPowers {
+  margin-bottom: 5px;
+}
+
+
+

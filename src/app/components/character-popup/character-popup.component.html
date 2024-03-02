@@ -1,0 +1,28 @@
+<div *ngIf="mostrar">
+  <div class="modal" *ngFor="let characterData of characterData">
+    <div class="ImageSide">
+      <img src="{{characterData.popUpPhoto}}" alt="{{characterData.name}} Photo" class="popUpPhoto">
+    </div>
+    <div class="DetailSide">
+      <div class="textTop">
+        <h1 class="characterName">{{characterData.name}}</h1>
+        <p class="characterRealName"><strong>Nome Real: </strong>{{ characterData.alias }}</p>
+        <p class="characterBase"><strong>Base: </strong>{{ characterData.base }}</p>
+        <p class="characterPowers"><strong>Poderes: </strong>{{ characterData.powers }}</p>
+        <p class="characterFirstA"><strong>Primeira Aparição: </strong>{{ characterData.firstA }}</p>
+      </div>
+      <div class="textBottom">
+        <p>{{ characterData.description }}</p>
+      </div>
+    </div>
+    <a (click)="close()" class="btnClose">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" class="bi bi-x-lg" viewBox="0 0 16 16">
+        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+      </svg>
+    </a>
+  </div>
+  <div>
+    <div (click)="open" class="overlay"></div>
+  </div>
+</div>
+

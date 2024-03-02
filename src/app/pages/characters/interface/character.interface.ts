@@ -6,5 +6,6 @@ export interface ICharacter {
   powers:string,
   base:string,
   alias:string,
-  firstA:string
+  firstA:string,
+  popUpPhoto:string,
 }

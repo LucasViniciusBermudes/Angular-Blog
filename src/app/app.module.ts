@@ -13,6 +13,7 @@ import { MoreComponent } from './pages/more/more.component';
 import { CharactersComponent } from './pages/characters/characters.component';
 import { CharacterCardComponent } from './components/character-card/character-card.component';
 import { PageFooterComponent } from './components/page-footer/page-footer.component';
+import { CharacterPopupComponent } from './components/character-popup/character-popup.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { PageFooterComponent } from './components/page-footer/page-footer.compon
     CharactersComponent,
     CharacterCardComponent,
     PageFooterComponent,
+    CharacterPopupComponent,
   ],
   imports: [
     BrowserModule,

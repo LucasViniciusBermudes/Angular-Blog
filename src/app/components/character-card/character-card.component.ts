@@ -8,9 +8,19 @@ import { ICharacter } from 'src/app/pages/characters/interface/character.interfa
 })
 export class CharacterCardComponent implements OnInit {
   @Input()characters!:ICharacter[];
-  constructor() { }
+  mostrar: boolean = false;
+  characterData: any [] = [];
+  constructor() {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  cardClick(character: ICharacter) {
+    this.mostrar=true;
+    this.characterData = [character];
+    console.log(this.characterData);
   }
 
+  fecharPopUp(event: boolean) {
+    this.mostrar = event;
+  }
 }
