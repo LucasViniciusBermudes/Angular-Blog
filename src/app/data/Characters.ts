@@ -69,7 +69,7 @@ export const characters:ICharacter[] = [
   },
   {
     "id": "7",
-    "name": "Green Arrow",
+    "name": "Arqueiro Verde",
     "photo": "https://i.pinimg.com/736x/77/c3/90/77c3909102de4340002e91cdf582f71a.jpg",
     "popUpPhoto": "https://i.pinimg.com/564x/4c/17/e7/4c17e7f40307d38f075b3fb989489653.jpg",
     "description": "Oliver Queen, um bilionário com habilidades inigualáveis de arquearia, assume o papel de Arqueiro Verde na Liga da Justiça. Além de ser rotulado como um Robin Hood moderno, a jornada de Queen, indo da privacidade para uma ilha deserta, o forjou no maior arqueiro já conhecido. Ao retornar à civilização, ele se torna um vigilante urbano, combatendo o crime em Seattle e Star City com seu arco e flecha. Apesar de sua imagem de playboy, Arqueiro Verde é verdadeiramente um 'guerreiro da justiça social', priorizando o bem-estar dos menos favorecidos. Imperfeito em sua vida pessoal, ele se destaca como um dos maiores heróis do Universo DC, sendo um aliado formidável, seja lutando sozinho, ao lado da Canário Negro ou com a Liga da Justiça.",

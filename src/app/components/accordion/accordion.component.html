@@ -1,0 +1,6 @@
+<div class="curiosities" *ngFor="let curiosity of curiosities">
+  <details>
+    <summary (click)="onClick(curiosity)">{{curiosity.title}}</summary>
+    <article>{{ curiosity.description }}</article>
+  </details>
+</div>

@@ -10,6 +10,7 @@ export class CharacterCardComponent implements OnInit {
   @Input()characters!:ICharacter[];
   mostrar: boolean = false;
   characterData: any [] = [];
+
   constructor() {}
 
   ngOnInit(): void {}

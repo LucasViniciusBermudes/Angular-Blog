@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { CharactersComponent } from './pages/characters/characters.component';
 import { CharacterCardComponent } from './components/character-card/character-card.component';
 import { PageFooterComponent } from './components/page-footer/page-footer.component';
 import { CharacterPopupComponent } from './components/character-popup/character-popup.component';
+import { AccordionComponent } from './components/accordion/accordion.component';
 
 @NgModule({
   declarations: [
@@ -29,10 +31,12 @@ import { CharacterPopupComponent } from './components/character-popup/character-
     CharacterCardComponent,
     PageFooterComponent,
     CharacterPopupComponent,
+    AccordionComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

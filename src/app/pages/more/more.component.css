@@ -10,6 +10,7 @@
 .AboutMeContainer h1 {
   font-size: 50px;
   padding-bottom: 20px;
+  padding-top: 50px;
 }
 .contentContainer {
   display: flex;
@@ -61,4 +62,11 @@
   border: 1px solid #000;
   margin-bottom: 15px;
   margin-top: 15px;
+}
+
+h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
