@@ -12,7 +12,7 @@ This project currently has 4 screens:
 
 ## Future Features
 
-- Detailed character screen, where the user will get more information about the character they choose;
-- About me screen upgrade: the idea is to include more information about myself, and about the DC Universe, such as fun facts and curiosities;
+- Detailed character screen, where the user will get more information about the character they choose;✅
+- About me screen upgrade: the idea is to include more information about myself, and about the DC Universe, such as fun facts and curiosities;✅
 - Home screen: add more news;
 - Add responsive features;
