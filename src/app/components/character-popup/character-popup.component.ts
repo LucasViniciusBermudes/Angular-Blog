@@ -5,7 +5,7 @@ import { ICharacter } from 'src/app/pages/characters/interface/character.interfa
 @Component({
   selector: 'app-character-popup',
   templateUrl: './character-popup.component.html',
-  styleUrls: ['./character-popup.component.css']
+  styleUrls: ['./character-popup.component.css', './character-popup.responsive.component.css']
 })
 export class CharacterPopupComponent {
   @Input() mostrar: boolean = false;

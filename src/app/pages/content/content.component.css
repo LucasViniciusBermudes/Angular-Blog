@@ -28,6 +28,7 @@
 }
 
 .contentDescription p {
+  text-indent:2em;
   text-align: justify;
   margin-right: 10%;
   margin-left: 10%;

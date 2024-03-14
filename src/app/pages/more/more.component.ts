@@ -5,7 +5,7 @@ import { Icuriosity } from './interface/curiosities.interface';
 @Component({
   selector: 'app-more',
   templateUrl: './more.component.html',
-  styleUrls: ['./more.component.css']
+  styleUrls: ['./more.component.css', 'more.responsive.component.css']
 })
 export class MoreComponent implements OnInit {
 curiosity: Icuriosity[]=[];

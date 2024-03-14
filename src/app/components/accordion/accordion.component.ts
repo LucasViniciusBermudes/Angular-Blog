@@ -4,7 +4,7 @@ import { Icuriosity } from 'src/app/pages/more/interface/curiosities.interface';
 @Component({
   selector: 'app-accordion',
   templateUrl: './accordion.component.html',
-  styleUrls: ['./accordion.component.css']
+  styleUrls: ['./accordion.component.css' , './accordion.responsive.component.css']
 })
 export class AccordionComponent implements OnInit {
   @Input()curiosities!:Icuriosity[];

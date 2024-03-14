@@ -1,0 +1,30 @@
+/*Smartphone*/
+@media screen and (max-width: 767px) {
+  .contentContainer {
+    flex-direction: column-reverse;
+  }
+
+  .lefContainer {
+    padding-right: 0;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 25px;
+  }
+  #line {
+    width: 470px;
+  }
+
+  .aboutMeIcons {
+    justify-content: center;
+    gap: 150px;
+  }
+}
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+
+}
