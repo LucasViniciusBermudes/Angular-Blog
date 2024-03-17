@@ -17,4 +17,5 @@ This project currently has 4 screens:
 ✅ About me screen upgrade: the idea is to include more information about myself, and about the DC Universe, such as fun facts and curiosities;
 
 ✅ Home screen: add more news;
-- Add responsive features;
+
+🔄 Add responsive features;
