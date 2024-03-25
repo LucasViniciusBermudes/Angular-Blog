@@ -1,5 +1,55 @@
 /*Smartphone*/
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .contentContainer {
+    flex-direction: column-reverse;
+  }
+
+  .lefContainer {
+    padding-right: 0;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 25px;
+  }
+  #line {
+    width: 350px;
+    align-items: center;
+  }
+
+  .aboutMeIcons {
+    justify-content: center;
+    gap: 100px;
+  }
+  .rightContainer img {
+    width: 300px;
+  }
+}
+
+/*Tablet*/
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .contentContainer {
+    flex-direction: column-reverse;
+  }
+
+  .lefContainer {
+    padding-right: 0;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 25px;
+  }
+  #line {
+    width: 400px;
+  }
+
+  .aboutMeIcons {
+    justify-content: center;
+    gap: 150px;
+  }
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .contentContainer {
     flex-direction: column-reverse;
   }
@@ -20,11 +70,11 @@
     gap: 150px;
   }
 }
-/*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+/*Laptop G*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
 
 }
-/*Desktop*/
-@media screen and (min-width: 1024px) {
 
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
 }

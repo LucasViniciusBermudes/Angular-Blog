@@ -8,7 +8,6 @@
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 12;
-
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -17,12 +16,12 @@
 
 .overlay {
   background: #000;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   left: 0;
   opacity: 0.5;
   position: fixed;
   top: 0;
-  width: 100vw;
   z-index: 10;
 }
 
@@ -53,7 +52,6 @@
   position: relative;
   padding-bottom: 15px;
 }
-
 
 .DetailSide {
   position: relative;

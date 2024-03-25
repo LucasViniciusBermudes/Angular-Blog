@@ -1,3 +1,4 @@
+
 .menuBarContainer {
   display: grid;
   grid-template-columns: auto auto;
@@ -9,7 +10,6 @@
   font-weight: bold;
   font-size: 20px;
   transition: transform 250ms ease-in-out ;
-
 }
 
 .menuBarContainer > ul{
@@ -23,7 +23,6 @@
   margin-top: 15px;
   max-width: 100px;
 }
-
 
 .link{
   position: relative;
@@ -52,3 +51,4 @@
   left: 0;
   background: #0179f0;
 }
+

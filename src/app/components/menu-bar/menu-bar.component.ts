@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-menu-bar',
   templateUrl: './menu-bar.component.html',
-  styleUrls: ['./menu-bar.component.css']
+  styleUrls: ['./menu-bar.component.css', 'menu-bar.responsive.component.css']
 })
-export class MenuBarComponent implements OnInit {
+export class MenuBarComponent {
+  isMenuOpen:boolean = false;
+
+  toggleMenu(): void {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

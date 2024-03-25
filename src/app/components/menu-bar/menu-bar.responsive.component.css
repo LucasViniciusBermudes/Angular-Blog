@@ -1,0 +1,14 @@
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .menuBarContainer li{
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15spx;
+  }
+
+  .menuBarContainer img {
+    margin-left: 5px;
+    margin-top: 15px;
+    max-width: 70px;
+  }
+
+}

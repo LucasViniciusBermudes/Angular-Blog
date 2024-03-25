@@ -1,0 +1,77 @@
+/*Smartphone*/
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .characterContainer {
+    max-width: 500px;
+    padding-top: 20px;
+    margin-top: 25px;
+  }
+  .characterImage img {
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 250px;
+    height: 250px;
+  }
+
+  .charactersName p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+/*Tablet*/
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .characterContainer {
+    max-width: 350px;
+    padding-top: 20px;
+    margin-top: 25px;
+  }
+}
+
+/*Laptop*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.characterContainer {
+  max-width: 310px;
+  padding-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 25px;
+}
+.characterImage img {
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 150px;
+  height: 150px;
+}
+
+.charactersName p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+}
+
+/*Laptop G*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+}
+
+/*4K*/
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .characterContainer {
+    max-width: 310px;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 25px;
+  }
+}

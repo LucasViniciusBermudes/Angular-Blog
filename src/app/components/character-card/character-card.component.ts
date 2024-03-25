@@ -4,7 +4,7 @@ import { ICharacter } from 'src/app/pages/characters/interface/character.interfa
 @Component({
   selector: 'app-character-card',
   templateUrl: './character-card.component.html',
-  styleUrls: ['./character-card.component.css']
+  styleUrls: ['./character-card.component.css', './character-card.responsive.component.css']
 })
 export class CharacterCardComponent implements OnInit {
   @Input()characters!:ICharacter[];

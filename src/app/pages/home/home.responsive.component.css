@@ -1,5 +1,18 @@
 /*Smartphone*/
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .articlesContainer {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .smallCardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*Tablet*/
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .articlesContainer {
     margin-left: 75px;
     margin-right: 75px;
@@ -10,11 +23,41 @@
     flex-direction: column;
   }
 }
-/*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
 
-}
-/*Desktop*/
-@media screen and (min-width: 1024px) {
+/*Laptop*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .articlesContainer {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
 
+  .smallCardContainer {
+    display: flex;
+    flex-direction: column;
+  }
 }
+
+/*Laptop G*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .articlesContainer {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+/*4K*/
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .articlesContainer {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .smallCardContainer {
+    gap: 200px;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    align-content: center;
+  }
+}
+
+

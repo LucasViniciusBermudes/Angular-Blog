@@ -1,5 +1,5 @@
 /*Smartphone*/
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .smallCardContainer {
     padding-left: 0;
     display: flex;
@@ -18,7 +18,7 @@
   }
 
   .smallCardImage img {
-    width: 500px;
+    width: 300px;
     height: 100%;
   }
 
@@ -53,11 +53,205 @@
     margin-right: 0;
   }
 }
+
 /*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .smallCardContainer {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-content: center;
+    height: auto;
+    padding: 5px;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.34);
+    box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.34);
+    margin-bottom: 30px;
+  }
 
+  .smallCardImage img {
+    width: 600px;
+    height: 100%;
+  }
+
+  .smallCardDate p{
+    padding-bottom: 15px;
+    display: flex;
+
+  }
+
+  .smallCardTitle h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+    max-width: 1100px;
+    display: flex;
+    text-align: center;
+  }
+
+  .smallCardRight {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .smallCardDescription p{
+    margin-right: 0;
+  }
+
+  .smallCardText {
+    margin-right: 0;
+  }
 }
-/*Desktop*/
-@media screen and (min-width: 1024px) {
 
+/*Laptop*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .smallCardContainer {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-content: center;
+    height: auto;
+    padding: 5px;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+
+  .smallCardImage img {
+    width: 850px;
+    height: 100%;
+  }
+
+  .smallCardDate p{
+    padding-bottom: 15px;
+    display: flex;
+
+  }
+
+  .smallCardTitle h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+
+    text-align: center;
+  }
+
+  .smallCardRight {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .smallCardDescription p{
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .smallCardText {
+    margin-right: 0;
+  }
+}
+
+/*Laptop G*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .smallCardContainer {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: auto;
+    padding: 5px;
+    align-items: center;
+    border-radius: 15px;
+  }
+
+  .smallCardImage img {
+    width: 400px;
+    height: auto;
+  }
+
+  .smallCardDate p{
+    padding-bottom: 15px;
+    display: flex;
+  }
+
+  .smallCardTitle h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .smallCardRight {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .smallCardDescription p{
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .smallCardText {
+    margin-right: 0;
+  }
+}
+
+/*4K*/
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .smallCardContainer {
+    padding-left: 0;
+    height: auto;
+    width: 500px;
+  }
+
+
+  .smallCardDate p{
+    padding-bottom: 15px;
+    display: flex;
+  }
+
+  .smallCardTitle h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .smallCardRight {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .smallCardDescription p{
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .smallCardText {
+    margin-right: 0;
+  }
+
+  .smallCardImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

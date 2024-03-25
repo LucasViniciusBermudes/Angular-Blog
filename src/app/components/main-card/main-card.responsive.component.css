@@ -1,7 +1,7 @@
 /*Smartphone*/
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .mainCardLeft img {
-    width: 500px;
+    width: 300px;
     height: 100%;
   }
 
@@ -51,15 +51,179 @@
     margin-right: 0;
   }
 }
+
 /*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  h1 {
-    color: blue;
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .mainCardLeft img {
+    width: 600px;
+    height: 100%;
+  }
+
+  .mainCardLeft {
+    margin-left: 0;
+  }
+
+  .mainCardContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    height: auto;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+
+  .mainCardRight h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    max-width: 1100px;
+    display: flex;
+    text-align: center;
+  }
+
+  .mainCardDate {
+    padding-bottom: 15px;
+    color: #a5a6ab;
+    font-weight: bold;
+    display: flex;
+  }
+
+  .mainCardRight {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mainCardRight p {
+    margin-right: 0;
   }
 }
-/*Desktop*/
-@media screen and (min-width: 1024px) {
-  h1 {
-    color: red;
+
+/*Laptop*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .mainCardLeft img {
+    width: 500px;
+    height: 100%;
+  }
+
+  .mainCardLeft {
+    margin-left: 0;
+  }
+
+  .mainCardContainer {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    height: auto;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+
+  .mainCardRight h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    max-width: 1100px;
+    display: flex;
+    text-align: center;
+  }
+
+  .mainCardDate {
+    padding-bottom: 15px;
+  }
+
+  .mainCardRight {
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+  .mainCardRight p {
+    margin-right: 0;
   }
 }
+
+/*Laptop G*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .mainCardLeft img {
+    width: 700px;
+    height: 100%;
+  }
+
+  .mainCardLeft {
+    margin-left: 0;
+  }
+
+  .mainCardContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    height: auto;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+
+  .mainCardRight h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    max-width: 1100px;
+    display: flex;
+  }
+
+  .mainCardDate {
+    padding-bottom: 15px;
+  }
+
+  .mainCardRight {
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+  .mainCardRight p {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .mainCardLeft img {
+    width: 850px;
+    height: 100%;
+  }
+
+  .mainCardLeft {
+    margin-left: 0;
+  }
+
+  .mainCardContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    height: auto;
+    border-radius: 15px;
+    padding: 0;
+    margin-bottom: 90px;
+    width: 1880px;
+  }
+
+  .mainCardRight h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+    max-width: 1100px;
+  }
+
+  .mainCardDate {
+    padding-bottom: 15px;
+  }
+
+  .mainCardRight {
+    margin-left: 20px;
+  }
+}
+

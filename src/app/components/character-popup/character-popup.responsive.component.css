@@ -1,14 +1,54 @@
 /*Smartphone*/
-@media screen and (max-width: 767px) {
-  .ImageSide {
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .popUpPhoto {
     display: none;
+  }
+
+  .DetailSide {
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+  .modal {
+    padding-bottom: 0;
+    width: 90%;
+  }
+
+  .characterName {
+    font-size: 25px;
+    padding-bottom: 15px;
   }
 }
 /*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .modal {
+    width: 90%;
+  }
 
+  .popUpPhoto {
+    display: none;
+  }
+
+  .DetailSide {
+    position: static;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
 }
-/*Desktop*/
-@media screen and (min-width: 1024px) {
 
+/*Laptop*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .modal {
+    width: 90%;
+  }
+}
+
+/*Laptop G*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .modal {
+    width: 50%;
+  }
 }
