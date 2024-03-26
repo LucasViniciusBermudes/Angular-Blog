@@ -76,5 +76,18 @@
 
 }
 
+/*4k*/
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
+}
+
+/*Ultrawide*/
+@media screen and (min-width: 2560px) and (max-width: 3150px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  .AboutMeContainer h1 {
+    font-size: 100px;
+    margin-bottom: 40px;
+  }
 }

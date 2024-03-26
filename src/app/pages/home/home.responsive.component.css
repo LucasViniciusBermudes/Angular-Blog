@@ -60,4 +60,18 @@
   }
 }
 
+/*Ultrawide*/
+@media screen and (min-width: 2561px) and (max-width: 3150px) {
+  .articlesContainer {
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  .smallCardContainer {
+    gap: 280px;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    align-content: center;
+  }
+}
+
 

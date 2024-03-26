@@ -16,9 +16,25 @@
 
 }
 
+/*4k*/
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
   .curiosities {
     margin-left: 300px;
     margin-right: 300px;
+  }
+}
+
+/*Ultrawide*/
+@media screen and (min-width: 2560px) and (max-width: 3150px) {
+  .curiosities {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+
+  summary {
+    font-size: 25px;
+  }
+  details {
+    font-size: 20px;
   }
 }

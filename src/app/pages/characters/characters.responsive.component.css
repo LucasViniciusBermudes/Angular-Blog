@@ -16,7 +16,23 @@
 
 }
 
-/*Outros*/
-@media screen and (min-width: 1025px) and (max-width: 2550) {
+/*Laptop G*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
 
+}
+
+/*4K*/
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+}
+
+/*Ultrawide*/
+@media screen and (min-width: 2560px) and (max-width: 3150px) {
+  * {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  h1 {
+    font-size: 100px;
+  }
 }

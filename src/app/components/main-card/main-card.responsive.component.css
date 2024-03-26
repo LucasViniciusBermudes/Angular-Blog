@@ -191,6 +191,7 @@
   }
 }
 
+/*4k*/
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
   .mainCardLeft img {
     width: 850px;
@@ -226,4 +227,49 @@
     margin-left: 20px;
   }
 }
+
+/*Ultrawide*/
+@media screen and (min-width: 2560px) and (max-width: 3150px) {
+  .mainCardLeft img {
+    width: 1100px;
+    height: 100%;
+  }
+
+  .mainCardLeft {
+    margin-left: 0;
+  }
+
+  .mainCardContainer {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    align-content: center;
+    height: auto;
+    border-radius: 15px;
+    padding: 0;
+    margin-bottom: 90px;
+    width: 2050px;
+  }
+
+  .mainCardRight h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    max-width: 1100px;
+  }
+
+  .mainCardDate {
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .mainCardRight {
+    margin-left: 30px;
+  }
+
+  .mainCardDescription p{
+    font-size: 20px;
+  }
+}
+
+
+
 

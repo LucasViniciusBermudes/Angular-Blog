@@ -1,8 +1,9 @@
+/*Smartphone*/
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .menuBarContainer li{
     margin-right: 10px;
     font-weight: bold;
-    font-size: 15spx;
+    font-size: 15px;
   }
 
   .menuBarContainer img {
@@ -11,4 +12,42 @@
     max-width: 70px;
   }
 
+}
+
+/*Tablet*/
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+}
+
+/*Laptop*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/*Laptop G*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+}
+/*4k*/
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+}
+
+/*Ultrawide*/
+@media screen and (min-width: 2560px) and (max-width: 3150px) {
+  .menuBarContainer li{
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .menuBarContainer img {
+    margin-left: 5px;
+    margin-top: 15px;
+    max-width: 130px;
+  }
+
+  .menuBarList {
+    margin-right: 20px;
+    gap: 20px;
+  }
 }

@@ -255,3 +255,55 @@
     justify-content: center;
   }
 }
+
+/*Ultrawide*/
+@media screen and (min-width: 2560px) and (max-width: 3150px) {
+  .smallCardContainer {
+    padding-left: 0;
+    height: auto;
+    max-width: 500px;
+  }
+
+
+  .smallCardDate p{
+    padding-bottom: 15px;
+    display: flex;
+  }
+
+  .smallCardTitle h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .smallCardRight {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .smallCardDescription p{
+    margin-right: 0;
+    text-align: center;
+    text-align: justify;
+  }
+
+  .smallCardText {
+    margin-right: 0;
+  }
+
+  .smallCardImage img {
+
+    max-width: 500px;
+    height: 350px;
+  }
+
+  .smallCardImage a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}

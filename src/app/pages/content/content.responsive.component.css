@@ -81,3 +81,29 @@
     font-size: 75px;
   }
 }
+
+/*Ultrawide*/
+@media screen and (min-width: 2560px) and (max-width: 3150px) {
+  .contentImage img{
+    width: 1700px;
+  }
+
+  .contentDescription {
+    margin-top: 40px;
+    max-width: 1400px;
+    font-size: 40px;
+  }
+
+  .contentDescription p {
+    font-size: 30px;
+  }
+
+  .contentTitle h1 {
+    max-width: 1700px;
+    font-size: 95px;
+  }
+
+  .contentDate p {
+    font-size: 20px;
+  }
+}

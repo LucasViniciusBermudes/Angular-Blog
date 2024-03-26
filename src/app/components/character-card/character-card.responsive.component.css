@@ -75,3 +75,31 @@
     margin-top: 25px;
   }
 }
+
+/*Ultrawide*/
+@media screen and (min-width: 2560px) and (max-width: 3150px) {
+  .characterContainer {
+    max-width: 450px;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 25px;
+  }
+
+  .characterImage img {
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 250px;
+    height: auto;
+  }
+
+  .charactersName p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
