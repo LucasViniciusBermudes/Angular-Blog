@@ -10,7 +10,7 @@ This project currently has 4 screens:
 - Character screen, where the user will find some heroes and villains of the DC Universe;
 - "More" screen, where the user will find some information about me and some contact media.
 
-## Future Features
+## Features Added
 
 ✅ Detailed character screen, where the user will get more information about the character they choose;
 
@@ -18,4 +18,4 @@ This project currently has 4 screens:
 
 ✅ Home screen: add more news;
 
-🔄 Add responsive features;
+✅ Add responsive features;
